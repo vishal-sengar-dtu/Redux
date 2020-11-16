@@ -11,7 +11,7 @@ function Posts() {
 
   return (
     <div style={{'textAlign': 'left', 'marginLeft': '10px'}}>
-      <h3>Daily Posts</h3>
+      <h2>Daily Posts</h2>
       {
         posts.map(post => (
           <div key={post.id}>
