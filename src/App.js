@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Postform from './components/Postform';
+import Posts from './components/Posts';
 
 function App() {
   return (
@@ -10,6 +12,9 @@ function App() {
           Redux Tutorial
         </p>
       </header>
+      <Postform />
+      <br />
+      <Posts />
     </div>
   );
 }
